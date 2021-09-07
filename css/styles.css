@@ -11421,7 +11421,8 @@ html {
 .masthead {
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
-  /* background-image: url('../assets/img/background-kagura.webp'); */
+  /* background-image: url('../assets/img/skin-chou-kof-mobile-legends-268x300.png');
+  background-repeat: no-repeat; */
 }
 /* .responsive {
   width: 100%;
@@ -11451,7 +11452,7 @@ html {
     font-size: 1.5rem;
   }
 }
-.testimoni .testimoni-item {
+.jualakun .jualakun-item {
   cursor: pointer;
   position: relative;
   display: block;
@@ -11459,7 +11460,7 @@ html {
   border-radius: 0.5rem;
   overflow: hidden;
 }
-.testimoni .testimoni-item .testimoni-item-caption {
+.jualakun .jualakun-item .jualakun-item-caption {
   position: absolute;
   top: 0;
   left: 0;
@@ -11467,24 +11468,24 @@ html {
   opacity: 0;
   background-color: rgba(26, 188, 156, 0.9);
 }
-.testimoni .testimoni-item .testimoni-item-caption:hover {
+.jualakun .jualakun-item .jualakun-item-caption:hover {
   opacity: 1;
 }
-.testimoni .testimoni-item .testimoni-item-caption .testimoni-item-caption-content {
+.jualakun .jualakun-item .jualakun-item-caption .jualakun-item-caption-content {
   font-size: 1.5rem;
 }
 
-.testimoni-modal .btn-close {
+.jualakun-modal .btn-close {
   color: #1abc9c;
   font-size: 2rem;
   padding: 1rem;
 }
-.testimoni-modal .testimoni-modal-title {
+.jualakun-modal .jualakun-modal-title {
   font-size: 2.25rem;
   line-height: 2rem;
 }
 @media (min-width: 992px) {
-  .testimoni-modal .testimoni-modal-title {
+  .jualakun-modal .jualakun-modal-title {
     font-size: 3rem;
     line-height: 2.5rem;
   }
