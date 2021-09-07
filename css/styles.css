@@ -88,6 +88,11 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+/* custom menu efek link aktif */
+/* ul.menu li a.active {
+  color: black;
+} */
+/* akhir custom link */
 hr {
   margin: 1rem 0;
   color: inherit;
