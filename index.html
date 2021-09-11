@@ -98,13 +98,14 @@
                                 data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
                                 aria-controls="panelsStayOpen-collapseOne">
                                 1. <img src="assets/img/warrior-50px.png" width="50px" alt="Logo Warrior">
-                                <p class="ps mb-0">Warrior = Rp.2500 </p>&nbsp;= Rp. 1500
+                                Warrior =&nbsp;<p class="ps mb-0">Rp.2500</p>
                             </button>
                         </h2>
                         <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
                             aria-labelledby="panelsStayOpen-headingOne">
                             <div class="accordion-body">
-                                <strong>Jasa joki dari Warrior ke Elite = Rp. 12.000</strong> | Waktu proses 3 jam - 1
+                                <strong>(Rp. 1500/<i class="stars"></i>) Jasa joki dari Warrior ke Elite = Rp.
+                                    12.000</strong> | Waktu proses 3 jam - 1
                                 hari.
                             </div>
                         </div>
@@ -115,13 +116,14 @@
                                 data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
                                 aria-controls="panelsStayOpen-collapseTwo">
                                 2. <img src="assets/img/elite-50px.png" width="50px" alt="Logo Elite">
-                                <p class="ps mb-0">Elite = Rp.3000</p>&nbsp;= Rp. 2000
+                                Elite =&nbsp;<div class="ps mb-0">Rp.3000</div>
                             </button>
                         </h2>
                         <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
                             aria-labelledby="panelsStayOpen-headingTwo">
                             <div class="accordion-body">
-                                <strong>Jasa joki dari Elite ke Master = Rp. 20.000 (12<i class="stars"></i>)</strong>
+                                <strong>(Rp. 2000/<i class="stars"></i>) Jasa joki dari Elite ke Master = Rp. 20.000
+                                    (12<i class="stars"></i>)</strong>
                                 | Waktu proses 4 jam - 1 hari.
                             </div>
                         </div>
@@ -132,14 +134,14 @@
                                 data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
                                 aria-controls="panelsStayOpen-collapseThree">
                                 3. <img src="assets/img/master-50px.png" width="50px" alt="Logo Master">
-                                <p class="ps mb-0">Master = Rp.4000</p>&nbsp;= Rp. 2500
+                                Master =&nbsp;<div class="ps mb-0">Rp.4000</div>
                             </button>
                         </h2>
                         <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
                             aria-labelledby="panelsStayOpen-headingThree">
                             <div class="accordion-body">
-                                <strong>Jasa joki dari Master ke Grand Master = Rp. 35.000 (16<i
-                                        class="stars"></i>)</strong>
+                                <strong>(Rp. 2500/<i class="stars"></i>) Jasa joki dari Master ke Grand Master = Rp.
+                                    35.000 (16<i class="stars"></i>)</strong>
                                 | Waktu proses 5 Jam - 1 hari.
                             </div>
                         </div>
@@ -150,14 +152,15 @@
                                 data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
                                 aria-controls="panelsStayOpen-collapseFour">
                                 4. <img src="assets/img/grandmaster-50px.png" width="50px" alt="Logo Grand Master">
-                                <p class="ps mb-0">Grand Master = Rp.5000</p>&nbsp;= Rp. 3000
+                                Grand Master =&nbsp;<div class="ps mb-0">Rp.5000</div>
                             </button>
                         </h2>
                         <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
                             aria-labelledby="panelsStayOpen-headingFour">
                             <div class="accordion-body">
-                                <strong>Jasa joki dari Grand Master ke Epic = Rp. 70.000 (25<i
-                                        class="stars"></i>)</strong>
+                                <strong>(Rp. 3000/<i class="stars"></i>) Jasa joki dari Grand Master ke Epic = Rp.
+                                    70.000
+                                    (25<i class="stars"></i>)</strong>
                                 | Waktu proses 1 hari.
                             </div>
                         </div>
@@ -508,10 +511,12 @@
                     <div class="jualakun-item mx-auto" data-bs-toggle="modal" data-bs-target="#jualakunModal1">
                         <div class="jualakun-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="jualakun-item-caption-content text-center text-white"><img
-                                    src="assets/img/logo-mobile-legend-31251-300x173.png" alt="Logo Mobile Legends">
+                                    src="assets/img/logo-mobile-legend-31251-300x173.png" alt="Logo Mobile Legends"
+                                    width="200px">
                             </div>
                         </div>
-                        <img class="img-fluid" src="assets/img/undraw_empty_cart_co35.svg" alt="..." />
+                        <img class="img-fluid" src="assets/img/undraw_empty_cart_co35.svg" alt="Akun kosong"
+                            width="500px" />
                     </div>
                 </div>
 
@@ -613,62 +618,32 @@
             </div>
             <!-- Contact Section Form-->
             <div class="row justify-content-center">
-                <div class="col-lg-8 col-xl-7">
+                <div class="col-md-6">
+                    <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+                        <strong>Terima kasih!</strong> Pesan anda telah terkirim.
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
 
-                    <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                        <!-- Name input-->
-                        <div class="form-floating mb-3">
-                            <input class="form-control" id="name" type="text" placeholder="Enter your name..."
-                                data-sb-validations="required" />
-                            <label for="name">Nama Lengkap</label>
-                            <div class="invalid-feedback" data-sb-feedback="name:required">Nama diperlukan.</div>
+                    <form name="gusti-contact-form">
+                        <div class="mb-3">
+                            <label for="nama" class="form-label">Nama Lengkap</label>
+                            <input type="text" class="form-control" id="nama" aria-describedby="nama" name="nama">
                         </div>
-                        <!-- Email address input-->
-                        <div class="form-floating mb-3">
-                            <input class="form-control" id="email" type="email" placeholder="name@example.com"
-                                data-sb-validations="required,email" />
-                            <label for="email">Email</label>
-                            <div class="invalid-feedback" data-sb-feedback="email:required">Email diperlukan.</div>
-                            <div class="invalid-feedback" data-sb-feedback="email:email">Email tidak valid.</div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="email"
+                                placeholder="name@example.com" name="email">
                         </div>
-                        <!-- Phone number input-->
-                        <div class="form-floating mb-3">
-                            <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890"
-                                data-sb-validations="required" />
-                            <label for="phone">Nomor HP</label>
-                            <div class="invalid-feedback" data-sb-feedback="phone:required">Nomor HP diperlukan.
-                            </div>
+                        <div class="mb-3">
+                            <label for="pesan" class="form-label">Pesan</label>
+                            <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
                         </div>
-                        <!-- Message input-->
-                        <div class="form-floating mb-3">
-                            <textarea class="form-control" id="message" type="text"
-                                placeholder="Enter your message here..." style="height: 10rem"
-                                data-sb-validations="required"></textarea>
-                            <label for="message">Pesan</label>
-                            <div class="invalid-feedback" data-sb-feedback="message:required">Pesan diperlukan.
-                            </div>
-                        </div>
-                        <!-- Submit success message-->
-                        <!---->
-                        <!-- This is what your users will see when the form-->
-                        <!-- has successfully submitted-->
-                        <div class="d-none" id="submitSuccessMessage">
-                            <div class="text-center mb-3">
-                                <div class="fw-bolder">Berhasil</div>
-                                Untuk mengaktifkan form ini, daftar terlebih dahulu.
-                                <br />
-                                <a href="#"></a>
-                            </div>
-                        </div>
-                        <!-- Submit error message-->
-                        <!---->
-                        <!-- This is what your users will see when there is-->
-                        <!-- an error submitting the form-->
-                        <div class="d-none" id="submitErrorMessage">
-                            <div class="text-center text-danger mb-3">Terjadi kesalahan saat mengirim pesan!</div>
-                        </div>
-                        <!-- Submit Button-->
-                        <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Send</button>
+                        <button type="submit" class="btn btn-success btn-kirim">Kirim</button>
+
+                        <button class="btn btn-success btn-loading d-none" type="button" disabled>
+                            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                            Loading...
+                        </button>
                     </form>
                 </div>
             </div>
@@ -728,7 +703,7 @@
                                 </div>
 
                                 <img class="img-fluid rounded mb-5" src="assets/img/undraw_empty_cart_co35.svg"
-                                    alt="..." />
+                                    alt="Akun Kosong" width="500px" />
 
                                 <p class="mb-4">...
                                 </p>
@@ -740,175 +715,45 @@
         </div>
     </div>
 
-    <!-- <div class="jualakun-modal modal fade" id="jualakunModal2" tabindex="-1" aria-labelledby="jualakunModal2"
-        aria-hidden="true">
-        <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
-                        aria-label="Close"></button></div>
-                <div class="modal-body text-center pb-5">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                  
-                                <h2 class="jualakun-modal-title text-secondary mb-0">None</h2>
-                        
-                                <div class="divider-custom">
-                                    <div class="divider-custom-line"></div>
-                                </div>
-              
-                                <img class="img-fluid rounded mb-5" src="assets/img/undraw_empty_cart_co35.svg"
-                                    alt="..." />
-            
-                                <p class="mb-4">...
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="jualakun-modal modal fade" id="jualakunModal3" tabindex="-1" aria-labelledby="jualakunModal3"
-        aria-hidden="true">
-        <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
-                        aria-label="Close"></button></div>
-                <div class="modal-body text-center pb-5">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-         
-                                <h2 class="jualakun-modal-title text-secondary mb-0">None</h2>
-  
-                                <div class="divider-custom">
-                                    <div class="divider-custom-line"></div>
-                                </div>
-
-                                <img class="img-fluid rounded mb-5" src="assets/img/undraw_empty_cart_co35.svg"
-                                    alt="..." />
-
-                                <p class="mb-4">...
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="jualakun-modal modal fade" id="jualakunModal4" tabindex="-1" aria-labelledby="jualakunModal4"
-        aria-hidden="true">
-        <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
-                        aria-label="Close"></button></div>
-                <div class="modal-body text-center pb-5">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-
-                                <h2 class="jualakun-modal-title text-secondary mb-0">None</h2>
-
-                                <div class="divider-custom">
-                                    <div class="divider-custom-line"></div>
-                                </div>
-
-                                <img class="img-fluid rounded mb-5" src="assets/img/undraw_empty_cart_co35.svg"
-                                    alt="..." />
-
-                                <p class="mb-4">...
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="jualakun-modal modal fade" id="jualakunModal5" tabindex="-1" aria-labelledby="jualakunModal5"
-        aria-hidden="true">
-        <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
-                        aria-label="Close"></button></div>
-                <div class="modal-body text-center pb-5">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-
-                                <h2 class="jualakun-modal-title text-secondary mb-0">None</h2>
- 
-                                <div class="divider-custom">
-                                    <div class="divider-custom-line"></div>
-                                </div>
-
-                                <img class="img-fluid rounded mb-5" src="assets/img/undraw_empty_cart_co35.svg"
-                                    alt="..." />
-
-                                <p class="mb-4">...
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="jualakun-modal modal fade" id="jualakunModal6" tabindex="-1" aria-labelledby="jualakunModal6"
-        aria-hidden="true">
-        <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
-                        aria-label="Close"></button></div>
-                <div class="modal-body text-center pb-5">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-
-                                <h2 class="jualakun-modal-title text-secondary mb-0">None</h2>
-
-                                <div class="divider-custom">
-                                    <div class="divider-custom-line"></div>
-                                </div>
-
-                                <img class="img-fluid rounded mb-5" src="assets/img/undraw_empty_cart_co35.svg"
-                                    alt="..." />
- 
-                                <p class="mb-4">...
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
     <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- fungsi js untuk kontak -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyDXXHJhYWni90ljbb4ohjj3kYjg8gq_SdqoxpKRiV7JzuLRz5BJJPkSotpv9FSyEODXw/exec'
+        const form = document.forms['gusti-contact-form']
+        const btnKirim = document.querySelector('.btn-kirim');
+        const btnLoading = document.querySelector('.btn-loading');
+        const myAlert = document.querySelector('.my-alert');
+
+        form.addEventListener('submit', e => {
+            e.preventDefault();
+            // ketika tombol submit diklik
+            // tampilkan tombol loading dan hilangkan tombol kirim
+            btnLoading.classList.toggle('d-none');
+            btnKirim.classList.toggle('d-none');
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+
+                    // tampilkan tombol kirim dan hilangkan tombol loading
+                    btnLoading.classList.toggle('d-none');
+                    btnKirim.classList.toggle('d-none');
+                    // tampilkan alert
+                    myAlert.classList.toggle('d-none');
+                    // reset form
+                    form.reset();
+                    console.log('Success!', response)
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+    <!-- akhir fungsi js untuk kontak -->
     <!-- Core theme JS-->
-    <!-- untuk random angka dan huruf -->
-    <!-- <script>
-        function maketextnumber(n) {
-            for (var r = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n",
-                "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "A", "B", "C", "D", "E", "F",
-                "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W",
-                "X", "Y", "Z", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
-                e = n, t = new Array, a = 0; a <= e - 1; a++) {
-                t[a] = r[parseInt(Math.random() * r.length)];
-                t = t;
-                randomtextnumber = t.join("")
-            }
-        }
-        var hasil = document.getElementById("hasil-output");
-        hasil.innerHTML = (maketextnumber(6), randomtextnumber);
-    </script> -->
-    <!-- end untuk random angka dan huruf -->
+
     <script>
         // 1. tangkap element dengan class menu
         const menu = document.querySelector(".menu");
