@@ -96,6 +96,11 @@ body {
 /* custom star*/
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,400");
 
+.ps {
+
+text-decoration: line-through;
+color: red;
+}
 
 .star {
   position: relative;
